@@ -6,7 +6,7 @@ header,
 }
 
 #intro {
-    background: url(/MDB-Pro-4.12/picture/壁纸1.jpg)no-repeat center center fixed;
+    background: url(/picture/壁纸1.jpg)no-repeat center center fixed;
     -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
     -moz-background-size: cover;    /* 针对Firefox浏览器 */
     -o-background-size: cover;      /* 针对Operallq */
