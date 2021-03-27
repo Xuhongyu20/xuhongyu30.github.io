@@ -16,3 +16,6 @@ header,
 .top-nav-collapse {
   background-color: #24355C;
 }
+.streak.streak-photo {
+  background-attachment: fixed;
+}
