@@ -23,118 +23,259 @@
     <!-- start your project here -->
     <!--Main Navigation-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark primary-color">
 
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
             <div class="container">
-
-                <!-- Navbar brand -->
-                <a class="navbar-brand" href="#">头</a>
-
-                <!-- Collapse button -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-                    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#">主页</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <!-- Collapsible content -->
-                <div class="collapse navbar-collapse" id="basicExampleNav">
-
-                    <!-- Links -->
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">主页
-                                <span class="sr-only">(current)</span>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto smooth-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#first" data-offset="90">目标</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#secend" data-offset="90">大学开始</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#third" data-offset="90">日常</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#four" data-offset="90">视频</a>
+                        </li>
+                    </ul>
+                    <!-- Social Icon  -->
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.qq.com/">
+                                <i class="fab fa-qq light-green-text-2"></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">第一</a>
+                            <a class="nav-link" href="https://www.weibo.com/">
+                                <i class="fab fa-weibo light-green-text-2"></i>
+                            </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">第二</a>
-                        </li>
-
-                        <!-- Dropdown -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">第三</a>
-                            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">1</a>
-                                <a class="dropdown-item" href="#">2</a>
-                                <a class="dropdown-item" href="#">3</a>
-                            </div>
-                        </li>
-
                     </ul>
-                    <!-- Links -->
-
-                    <form class="form-inline">
-                        <div class="md-form my-0">
-                            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                        </div>
-                    </form>
                 </div>
-                <!-- Collapsible content -->
-
             </div>
-
         </nav>
-            <div id="intro" class="view">
+        <div class="view ">
 
-                <div class="mask rgba-black-strong">
+            <video class="video-intro" playsinline autoplay muted loop>
+                <source src="img/mp4/sky.mp4" type="video/mp4">
+                <!--Grid column-->
+            </video>
+            <div class="mask d-flex justify-content-center align-items-center">
+                <!-- Content -->
+                <div class="container px-md-3 px-sm-0">
+                    <!--Grid row-->
+                    <div class="row wow fadeIn">
+                        <!--Grid column-->
+                        <div class="col-md-12 mb-4 white-text text-center wow fadeIn">
+                            <h3 class="display-4 font-weight-bold white-text text-center mb-0 pt-md-5 pt-5">
+                                您好，我叫徐宏宇</h3>
 
-                    <div class="container-fluid d-flex align-items-center justify-content-center h-100">
-
-                        <div class="row d-flex justify-content-center text-center">
-
-                            <div class="col-md-10">
-
-                                <!-- Heading -->
-                                <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">欢迎来到徐宏宇的个人网页</h2>
-
-                                <!-- Divider -->
-                                <hr class="hr-light">
-
-                                <!-- Description -->
-                                <h4 class="white-text my-4">
-                                    Welcome to Xu Hongyu's personal website
-                                    consequuntur.</h4>
-                                <button type="button" class="btn btn-outline-white">阅读更多<i
-                                        class="fas fa-apple-alt ml-2"></i></button>
-
-                            </div>
-
+                            <hr class="hr-light my-4 w-75">
+                            <h4 class="subtext-header font-weight-bold mt-2 mb-4 text-yellow-50">
+                                我正在学习设计网页
+                                <br>
+                                这是我设计的网页
+                            </h4>
+                            <a href="#first" class="btn btn-rounded btn-outline-white">
+                                <i class="fas fa-home "></i> 阅读更多
+                            </a>
                         </div>
-
+                        <!--Grid column-->
                     </div>
-
+                    <!--Grid row-->
                 </div>
-
+                <!-- Content -->
             </div>
-            <!--/.Mask-->
-        
+            <!-- Mask & flexbox options-->
+        </div>
+
 
     </header>
     <!--Main Navigation-->
 
     <!--Main layout-->
     <main>
-        <section id="my1">
+        <section id="first" class="text-center py-5">
+            <div class="container">
+                <h1 class="h1-responsive font-weight-bold text-center mb-5">
+                    目标
+                </h1>
 
-            <h1>
-                第一段
-            </h1>
-            <row>
-                safjhlsdgjhljkhsag/lkhl;kfdshlk;fxjdhlgsduhuo'efuhoprhuptrhuosfd;uh'tsohuopfduhopsdh
-                
-            </row>
+                <p class="lead grey-text text-center w-responsive mx-auto mb-5">
+                    “目前就想提高成绩和技术，希望毕业后找个好工作，不拖累父母！”
+                </p>
+
+                <a href="/img/cute.jpg" target="_blank"><img src="/img/cute.jpg" alt="cute Logo" width="200"
+                        height="200"></a>
+
+            </div>
         </section>
+        <section id="secend" class="text-center py-5" style="background-color: #eee" ;>
+            <div class="container">
+                <h1 class="h1-responsive font-weight-bold text-center mb-5">
+                    大学的开始
+                </h1>
+                <P class="lead grey-text text-center w-responsive mx-auto mb-5">
+                    开学当然是先军训了！军训也让我们快速融入了学校这个环境，认识了更多朋友。
+                </P>
+            </div>
+        </section>
+        <div class="streak streak-md streak-photo" style="background-image:url(/img/军训.jpg)">
+            <div class="flex-center white-text rgba-black-light pattern-1">
+                <ul class="mb-0 list-unstyled">
+                    <li>
 
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <section id="third" class="text-center py-5">
+            <h1 class="h1-responsive text-center font-weight-bold mb-5">
+                大学的一些生活
+            </h1>
+            <div class="container">
+                <div class="row flex-center">
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <div class=" overlay ">
+                            <a href="/img/学习.jpg" target="_blank"><img class="picture" src="/img/学习.jpg"
+                                    alt="xuexi Logo"></a>
+                        </div>
+                        <h4 class="my-4 font-weight-bold">
+                            在机房学习计算机语言
+                        </h4>
+                        <p>学计算机专业的嘛，肯定有语言课了，当时怕记不住就拍下来了。</p>
+                    </div>
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <div class=" overlay ">
+                            <a href="/img/雾.jpg" target="_blank"><img class="picture" src="/img/雾.jpg"
+                                    alt="fengjing Logo"></a>
+                        </div>
+                        <h4 class="my-4 font-weight-bold">
+                            一天自习起了大雾
+                        </h4>
+                        <p>眼前都是一片白茫茫。</p>
+                    </div>
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <div class=" overlay ">
+                            <a href="/img/工作.jpg" target="_blank"><img class="picture" src="/img/工作.jpg"
+                                    alt="yepao Logo"></a>
+                        </div>
+                        <h4 class="my-4 font-weight-bold">
+                            寒假去工作
+                        </h4>
+                        <p>放假期间可以多出去锻炼一下自己。</p>
+                    </div>
+                </div>
+                <div class="row flex-center">
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <div class=" overlay ">
+                            <a href="/img/风景1.jpg" target="_blank"><img class="picture" src="/img/风景1.jpg"
+                                    alt="fengjing Logo"></a>
+                        </div>
+                        <h4 class="my-4 font-weight-bold">
+                            拍的学校的湖
+                        </h4>
+                        <p>春天生机盎然。</p>
+                    </div>
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <div class=" overlay ">
+                            <a href="/img/风景2.jpg" target="_blank"><img class="picture" src="/img/风景2.jpg"
+                                    alt="fengjing Logo"></a>
+                        </div>
+                        <h4 class="my-4 font-weight-bold">
+                            拍的学校的天空
+                        </h4>
+                        <p>晚霞一望无垠。</p>
+                    </div>
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <div class=" overlay">
+                            <a href="/img/夜跑.jpg" target="_blank"><img class="picture" src="/img/夜跑.jpg"
+                                    alt="yepao Logo"></a>
+                        </div>
+                        <h4 class="my-4 font-weight-bold">
+                            晚上在操场跑步
+                        </h4>
+                        <p>大学还是要多运动的，俗话说身体是革命的本钱。</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="four" class="text-center py-5" style="background-color: #eee" ;>
+            <h1 class="h1-responsive font-weight-bold text-center mb-5">学校活动拍的视频！</h1>
+            <video controls autobuffer="true" width="50%" poster="/img/dance.jpg">
+                <source src="/img/mp4/dance.mp4">
+                学校活动拍的视频！
+            </video>
+        </section>
     </main>
     <!--Main layout-->
-
     <!--Footer-->
-    <footer>
+    <footer class="page-footer  colorful-card">
 
+        <div class="container text-md-left">
+
+            <!-- Grid row -->
+            <div class="row ">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">作者信息</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <p>一名在校大学生</p>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">联系方式</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="/img/QQ.jpg">QQ:2041791693</a>
+                        </li>
+                        <li>
+                            <a href="/img/微信.jpg">微信:x18323927899</a>
+                        </li>
+                        <li>
+                            <p>CSDN id:m0_49297422 </p>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">本网站纯属个人网站！
+            <a href=""> </a>
+        </div>
+        <!-- Copyright -->
     </footer>
     <!--Footer-->
     <!-- end your project here -->
@@ -148,7 +289,17 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Your custom scripts (optional) -->
     <script type="text/javascript">
-
+        // MDB Lightbox Init
+        $(function () {
+            $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+        });
+        // 以下为动画效果新添加的两条语句
+        // Adding animations to the sections, 使用的是淡入, 你也可以试试zoomIn等动画
+        $("section").addClass("wow fadeIn");
+        // Animations Init, 注意必须放在ready方法中以防WOW对象没能加载成功
+        $(document).ready(function () {
+            new WOW().init();
+        });
     </script>
 </body>
 
