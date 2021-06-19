@@ -1,0 +1,177 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+#intro {
+    background: url("/img/pexels-photo-1640777.jpeg")no-repeat center center fixed;
+    -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+    -moz-background-size: cover;    /* 针对Firefox浏览器 */
+    -o-background-size: cover;      /* 针对Operallq */
+    background-size: cover;         /* 通用 */
+}
+html,
+body,
+header,
+#intro_1 {
+    height: 100%;
+}
+#intro_1 {
+    background: url("/img/pexels-lumn-1410236.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+    -moz-background-size: cover;    /* 针对Firefox浏览器 */
+    -o-background-size: cover;      /* 针对Operallq */
+    background-size: cover;         /* 通用 */
+}
+html,
+body,
+header,
+#intro_2 {
+    height: 100%;
+}
+#intro_2 {
+    background: url("/img/pexels-elle-hughes-1660030.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+    -moz-background-size: cover;    /* 针对Firefox浏览器 */
+    -o-background-size: cover;      /* 针对Operallq */
+    background-size: cover;         /* 通用 */
+}
+html,
+body,
+header,
+#intro_3 {
+    height: 100%;
+}
+#intro_3 {
+    background: url("/img/pexels-daria-shevtsova-704971.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+    -moz-background-size: cover;    /* 针对Firefox浏览器 */
+    -o-background-size: cover;      /* 针对Operallq */
+    background-size: cover;         /* 通用 */
+}
+html,
+body,
+header,
+#intro_4 {
+    height: 100%;
+}
+#intro_4 {
+    background: url("/img/pexels-chevanon-photography-302899.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+    -moz-background-size: cover;    /* 针对Firefox浏览器 */
+    -o-background-size: cover;      /* 针对Operallq */
+    background-size: cover;         /* 通用 */
+}
+
+.top-nav-collapse {
+  background-color: #24355C;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.header{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(207, 238, 238);
+  position: relative;
+}
+
+.container{
+  width: 1226px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.header .logo{
+  float: left;
+  margin-top: 25px;
+}
+
+.logo a{
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+
+.header .list{
+  float: left;
+  width: 820px;
+  height: 88px;
+  padding: 12px 0 0 30px;
+}
+
+clearfix::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header li{
+  float: left;
+  list-style: none;
+}
+
+.list li{
+  padding: 28px 10px 38px ;
+  display: block;
+  color: rgb(68, 57, 5);
+}
+
+ .search{
+  float: right;
+  width: 296px;
+  margin-top: 10px;
+  position: absolute;
+  top: 28px;
+  right: 53px;
+}
+.search form{
+  height: 50px;
+  width: 296px;
+} 
+
+.content1{
+   display: block;
+  width: 223px;
+  height: 48px;
+  border: 1px solid #e0e0e0;
+  padding: 0 10px;
+  float:right;
+  
+}
+
+.search1{
+  width: 49px;
+  height: 49px;
+  float: right;
+} 
+
+.list li:hover{
+  color: rgb(168, 81, 81);
+  font-size: larger;
+}
+.style{
+  overflow: auto;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background-color: #16ebce; 
+  border: 10px;
+  padding: 10px;
+  margin: 20px;
+  float: left;
+}
+.float{
+  float: right;  
+}
+.daxiao{
+  width: 250px;
+  height: 250px;
+}
